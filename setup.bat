@@ -6,29 +6,6 @@ rem set admingroup=administrators
 rem German Presets
 set usergroup=Benutzer
 set admingroup=Administratoren
-rem ************************* WARNING! THERE IS NO GUARANTEE THAT IT WILL WORK! I ASSUME NO LIABILITY FOR ANY DAMAGE CAUSED BY THIS PROGRAM! *************************
-rem 1. Customize the settings if necessary, and don't forget to save the file
-rem 1.1. Remove ALL comments
-rem * It's necessary to boot into the Windows Setup!
-rem 2. Prepare for Virtual machine:
-rem     1. Go to the Virtual Machine
-rem     1.1. Rember the choosen disk in Devices -> Optical Drives
-rem     1.2. In "Devices -> Optical Drives -> Choose/Create a disk image" click "Create"
-rem     1.3. Click "Configuration" and enter "setup" into the "VISO Name" field
-rem     1.4. Select your "setup.bat" in the "Host File System" tab and drag it into the "VISO Content" tab
-rem     1.5. Click "Create" and then click "Choose" in the "Optical Drive Selector" window (make sure you are back in the VM after this step)
-rem     1.6. Press Shift + F10
-rem     1.7. A command prompt should open
-rem     1.8. Type in ```xcopy D:\setup.bat .``` (If use it on real hardware you need find the correct drive letter)
-rem     1.9. Now select the disk that was selected before
-rem     1.10. Run ```setup.bat```
-rem 2.1. Prepare for real hardware
-rem     1.1. Copy setup.bat to usb stick (or other medium)
-rem     1.2. Perform steps 1.6. to 1.10. (exclude 1.9.) from section 2
-rem 
-rem Do NOT any code below this section ↓
-rem                                    ↓
-rem                                    ↓
 (echo sel dis 0
 echo conv gpt
 echo cre par efi size=500
