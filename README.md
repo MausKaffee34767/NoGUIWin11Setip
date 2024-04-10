@@ -4,7 +4,7 @@
 1. Customize the settings if necessary, and don't forget to save the file\
 1.1. Remove ALL comments\
 Note: It's necessary to boot into the Windows Setup!\
-2\. Prepare for Virtual machine (I am using [Virtual Box](https://www.virtualbox.org/))\
+2\. Prepare for a Virtual Machine (I am using [Virtual Box](https://www.virtualbox.org/))\
     1. Go to the Virtual Machine\
     1.1. Rember the choosen disk in Devices -> Optical Drives\
     1.2. In ```Devices -> Optical Drives -> Choose/Create a disk image``` click ```Create```\
