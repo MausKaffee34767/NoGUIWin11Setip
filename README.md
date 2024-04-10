@@ -19,3 +19,15 @@ Note: It's necessary to boot into the Windows Setup!\
 2.1. Prepare for real hardware\
     1.1. Copy setup.bat to usb stick (or other medium)\
     1.2. Perform steps 1.6. to 1.10. (exclude 1.9.) from section 2
+
+
+
+
+
+
+
+
+
+
+
+   U3h1c2EgZWtqIFtydXJyZV0oeGpqZmk6Ly93eWp4a3Iuc2VjL3J1cnJlKQ==
